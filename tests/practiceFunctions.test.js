@@ -13,11 +13,11 @@ test("reverse the string", () => {
 });
 
 // calculator
-test("is an object", () => {
+test("calculator is an object", () => {
   expect(typeof calculator).toBe("object");
 });
 
-test("contains sum, subtract, multiply, divide functions", () => {
+test("calculator contains sum, subtract, multiply, divide functions", () => {
   expect(Object.keys(calculator)).toStrictEqual([
     "sum",
     "subtract",
